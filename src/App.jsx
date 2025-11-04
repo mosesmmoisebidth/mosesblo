@@ -135,7 +135,10 @@ const MosesBloggingSite = () => {
               <button onClick={() => scrollToSection('publications')} className={`text-xs tracking-widest uppercase transition-colors duration-300 ${activeSection === 'publications' ? 'text-white' : 'text-white/40 hover:text-white'}`}>
                 Publications
               </button>
-              <a href="https://moses.it.com" className="text-xs tracking-widest uppercase border border-white/20 hover:border-white/40 px-6 py-3 transition-all duration-300">
+              {/* <a href="https://moses.it.com" className="text-xs tracking-widest uppercase border border-white/20 hover:border-white/40 px-6 py-3 transition-all duration-300">
+                Portfolio
+              </a> */}
+              <a href="https://mosesmmoisebidth.github.io/mosesp/" className="text-xs tracking-widest uppercase border border-white/20 hover:border-white/40 px-6 py-3 transition-all duration-300">
                 Portfolio
               </a>
             </div>
@@ -349,7 +352,10 @@ const MosesBloggingSite = () => {
               © 2025 Moses Mucyo
             </div>
             <div className="flex gap-8 text-xs tracking-widest uppercase">
-              <a href="https://moses.it.com" className="text-white/40 hover:text-white transition-colors duration-300">
+              {/* <a href="https://moses.it.com" className="text-white/40 hover:text-white transition-colors duration-300">
+                Portfolio
+              </a> */}
+              <a href="https://mosesmmoisebidth.github.io/mosesp/" className="text-white/40 hover:text-white transition-colors duration-300">
                 Portfolio
               </a>
               <a href="https://github.com/mosesmmoisebidth" className="text-white/40 hover:text-white transition-colors duration-300">
